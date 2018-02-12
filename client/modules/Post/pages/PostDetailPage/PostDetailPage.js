@@ -26,7 +26,6 @@ export class PostDetailPage extends React.Component {
 
   handleInputChange = (event) => {
     const { value, name } = event.target;
-
     this.setState({
       [name]: value,
     });
@@ -72,7 +71,6 @@ export class PostDetailPage extends React.Component {
       </div>
     );
   }
-
 }
 
 // Actions required to provide data for this component to render in server side.
