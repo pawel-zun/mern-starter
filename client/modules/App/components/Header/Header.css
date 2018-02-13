@@ -35,13 +35,15 @@
 
 .language-switcher {
   background: rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .language-switcher ul {
   list-style: none;
-  width: 980px;
+  width: 490px;
   margin: auto;
   text-align: right;
+  display: inline-block;
 }
 
 .language-switcher li {
